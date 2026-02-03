@@ -1,0 +1,13 @@
+cat <<EOF > backend/package.json
+{
+  "name": "aikido-backend",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "express": "4.16.0",
+    "lodash": "4.17.11",
+    "jsonwebtoken": "8.5.1",
+    "mongoose": "5.7.0"
+  }
+}
+EOF
